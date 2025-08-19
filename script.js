@@ -46,14 +46,14 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "quantos jogadores precisa para jogar um jogo da forma correta para jogar o voleibool",
+        enunciado: "quantos jogadores precisa em cada time para jogar um jogo da forma completa para jogar o voleibool",
         alternativas: [
             {
-                texto: "para jogar o voleibool",
+                texto: "para jogar o voleibool precisa de 4 jogadores em cada time",
                 afirmacao: "nao e isso que pena"
             },
             {
-                texto: "6",
+                texto: "para jogar o voleibool precisa de 6 jogadores em cada time",
                 afirmacao: "correto, precisamos de 6 jogadores"
             }
         ]
@@ -63,11 +63,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "4 e ai passar para o adversario ",
-                afirmacao: "maximo 3 toque para ai passar"
+                afirmacao: "nao, mas é quase isso"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "pode ser dado 3 toque e ai passa a bola para o time adversario ",
+                afirmacao: "correto, pode dar até 3 toque na bola "
             }
         ]
     },
@@ -112,4 +112,5 @@ function mostraResultado() {
 }
 
 mostraPergunta();
+
 
