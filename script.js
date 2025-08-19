@@ -6,21 +6,21 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado"voce entende sobre o voleibool"
+        enunciado"voce entende sobre o voleibool, como ele funviona, oque é"
             {
         alternativas:
             {
                 texto: "sim",
-                afirmacao: "isso e maravilhoso "
+                afirmacao: "isso e maravilhoso"
             },
             {
                 texto: "nao"
-                afirmacao: "que pena"
+                afirmacao: "que pena,vamo procurar saber mais sobre"
             }
         ]
     },
     {
-        enunciado: "oque e voleibool"
+        enunciado: "oque e voleibool, ele é um esporte, ou apenas um jogo,"
         alternativas: [
             {
                 texto: "e um esporte",
@@ -33,7 +33,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "aonde surgiu o voleibool",
+        enunciado: "aonde surgiu o voleibool, ele é um esporte brasileiro ou não",
         alternativas: [
             {
                 texto: "ns estado unidos",
@@ -41,15 +41,15 @@ const perguntas = [
             },
             {
                 texto: "espanha",
-                afirmacao: "nao, que pena"
+                afirmacao: "nao, ele é um esporte criado no estados unidos"
             }
         ]
     },
     {
-        enunciado: "quantos jogadores precisa para jogar o voleibool",
+        enunciado: "quantos jogadores precisa para jogar um jogo da forma correta para jogar o voleibool",
         alternativas: [
             {
-                texto: "4",
+                texto: "para jogar o voleibool",
                 afirmacao: "nao e isso que pena"
             },
             {
@@ -112,3 +112,4 @@ function mostraResultado() {
 }
 
 mostraPergunta();
+
